@@ -16,8 +16,8 @@ body {
 .wrapper {
     display: flex;
     max-width: 1200px;
-    margin: 0 auto;
-    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+    margin: 0px auto;
+
 }
 
 .sidebar {
@@ -29,27 +29,19 @@ body {
 
 .my-photo {
     display: block;
-
     margin-left: auto;
     margin-right: auto;
     height: 270px;
     width: 220px;
 }
 
-.about-me-container {
-    padding-left: 90px;
-    padding-right: 90px;
-    padding-top: 110px;
-    padding-bottom: 110px;
-}
-
-.contacts-container {
+.contact-container {
     margin-top: 60px;
     margin-left: 40px;
     margin-right: 40px;
 }
 
-.contacts-title {
+.contact-title {
     font-size: 22px;
     font-weight: 700;
     line-height: 24px;
@@ -57,14 +49,14 @@ body {
     margin-bottom: 20px;
 }
 
-.contacts-link {
+.contact-link {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     color: #ffffff;
 }
 
-.contacts-link-type {
+.contact-link-type {
     color: #ffffff;
     font-size: 14px;
     font-weight: 700;
@@ -78,6 +70,13 @@ body {
     margin-top: 55px;
     }
 
+
+.about-me-container {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
 
 .profession {
     font-size: 14px;
@@ -157,7 +156,6 @@ body {
 .soft-skills-container {
 
     margin-right: 40px;
-
 }
 
 .soft-skills-title {
